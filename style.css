@@ -1,0 +1,463 @@
+/*==============================
+    GOOGLE FONT
+==============================*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+/*==============================
+    RESET
+==============================*/
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    scroll-behavior:smooth;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#f5f7fb;
+    color:#222;
+    overflow-x:hidden;
+}
+
+/*==============================
+    NAVBAR
+==============================*/
+
+.navbar{
+    background:rgba(0,0,0,.75);
+    backdrop-filter:blur(10px);
+    transition:.4s;
+}
+
+.navbar-brand{
+    font-size:28px;
+    font-weight:700;
+}
+
+.nav-link{
+    color:white !important;
+    margin-left:20px;
+    transition:.3s;
+}
+
+.nav-link:hover{
+    color:#00d4ff !important;
+}
+
+/*==============================
+    HERO
+==============================*/
+
+.hero{
+
+    min-height:100vh;
+
+    display:flex;
+
+    align-items:center;
+
+    background:linear-gradient(135deg,#0f2027,#203a43,#2c5364);
+
+    color:white;
+
+    padding-top:100px;
+
+}
+
+.hero h1{
+
+    font-size:60px;
+
+    font-weight:700;
+
+}
+
+.hero span{
+
+    color:#00d4ff;
+
+}
+
+.hero p{
+
+    margin:25px 0;
+
+    font-size:18px;
+
+    line-height:1.8;
+
+}
+
+.hero-image{
+
+    width:100%;
+
+    border-radius:20px;
+
+    animation:float 4s ease-in-out infinite;
+
+}
+
+.btn-primary{
+
+    background:#00d4ff;
+
+    border:none;
+
+    padding:12px 30px;
+
+}
+
+.btn-primary:hover{
+
+    transform:scale(1.05);
+
+}
+
+.btn-outline-light{
+
+    padding:12px 30px;
+
+}
+
+/*==============================
+    ABOUT
+==============================*/
+
+.about{
+
+    padding:100px 0;
+
+    background:white;
+
+}
+
+.about h2{
+
+    font-size:42px;
+
+    margin-bottom:20px;
+
+}
+
+.about p{
+
+    color:#666;
+
+    line-height:1.8;
+
+}
+
+.progress{
+
+    height:25px;
+
+    border-radius:50px;
+
+}
+
+.progress-bar{
+
+    font-weight:600;
+
+}
+
+/*==============================
+    ANIMATION
+==============================*/
+
+@keyframes float{
+
+0%{
+transform:translateY(0px);
+}
+
+50%{
+transform:translateY(-20px);
+}
+
+100%{
+transform:translateY(0px);
+}
+
+}
+/*==============================
+    SERVICES
+==============================*/
+
+.services{
+    padding:100px 0;
+    background:#f8f9fa;
+}
+
+.section-title{
+    text-align:center;
+    margin-bottom:60px;
+}
+
+.section-title h2{
+    font-size:42px;
+    font-weight:700;
+    color:#222;
+}
+
+.section-title p{
+    color:#666;
+    margin-top:10px;
+}
+
+.service-card{
+    background:#fff;
+    padding:35px;
+    border-radius:20px;
+    text-align:center;
+    transition:.4s;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+    height:100%;
+}
+
+.service-card i{
+    font-size:55px;
+    color:#00c6ff;
+    margin-bottom:20px;
+}
+
+.service-card h4{
+    margin-bottom:15px;
+    font-weight:600;
+}
+
+.service-card:hover{
+    transform:translateY(-15px);
+    box-shadow:0 20px 45px rgba(0,0,0,.2);
+}
+
+/*==============================
+    COUNTER
+==============================*/
+
+.counter{
+    background:#0d6efd;
+    color:#fff;
+    padding:90px 0;
+}
+
+.counter-box{
+    text-align:center;
+}
+
+.counter-box h2{
+    font-size:50px;
+    font-weight:bold;
+}
+
+.counter-box p{
+    font-size:18px;
+}
+
+/*==============================
+    PORTFOLIO
+==============================*/
+
+.portfolio{
+    padding:100px 0;
+    background:white;
+}
+
+.portfolio img{
+    width:100%;
+    border-radius:15px;
+    transition:.4s;
+    cursor:pointer;
+}
+
+.portfolio img:hover{
+    transform:scale(1.08);
+}
+
+/*==============================
+    TESTIMONIAL
+==============================*/
+
+.testimonial{
+    padding:100px 0;
+    background:#f8f9fa;
+}
+
+.testimonial-card{
+    background:white;
+    border-radius:20px;
+    padding:40px;
+    text-align:center;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+}
+
+.testimonial-card img{
+    width:90px;
+    height:90px;
+    border-radius:50%;
+    margin-bottom:20px;
+}
+
+.testimonial-card p{
+    font-style:italic;
+    color:#555;
+}
+
+/*==============================
+    CONTACT
+==============================*/
+
+.contact{
+    padding:100px 0;
+    background:white;
+}
+
+.contact form{
+    background:#fff;
+    padding:40px;
+    border-radius:20px;
+    box-shadow:0 15px 35px rgba(0,0,0,.08);
+}
+
+.form-control{
+    border-radius:10px;
+    padding:15px;
+}
+
+textarea{
+    resize:none;
+}
+
+.contact button{
+    width:100%;
+    padding:14px;
+    border:none;
+    border-radius:10px;
+    background:#0d6efd;
+    color:white;
+    transition:.3s;
+}
+
+.contact button:hover{
+    background:#084298;
+}
+
+/*==============================
+    FOOTER
+==============================*/
+
+footer{
+    background:#111827;
+    color:white;
+    text-align:center;
+    padding:30px 0;
+}
+
+footer .social-icons{
+    margin-bottom:15px;
+}
+
+footer .social-icons a{
+    color:white;
+    font-size:22px;
+    margin:0 12px;
+    transition:.3s;
+}
+
+footer .social-icons a:hover{
+    color:#00d4ff;
+}
+
+/*==============================
+    SCROLLBAR
+==============================*/
+
+::-webkit-scrollbar{
+    width:10px;
+}
+
+::-webkit-scrollbar-track{
+    background:#ddd;
+}
+
+::-webkit-scrollbar-thumb{
+    background:#0d6efd;
+    border-radius:10px;
+}
+
+/*==============================
+    MEDIA QUERIES
+==============================*/
+
+@media(max-width:992px){
+
+.hero{
+    text-align:center;
+}
+
+.hero h1{
+    font-size:45px;
+}
+
+.hero-image{
+    margin-top:40px;
+}
+
+.about{
+    text-align:center;
+}
+
+.about img{
+    margin-bottom:30px;
+}
+
+.section-title h2{
+    font-size:34px;
+}
+
+}
+
+@media(max-width:768px){
+
+.hero h1{
+    font-size:38px;
+}
+
+.hero p{
+    font-size:16px;
+}
+
+.nav-link{
+    margin-left:0;
+    text-align:center;
+}
+
+.counter-box{
+    margin-bottom:35px;
+}
+
+}
+
+@media(max-width:576px){
+
+.hero h1{
+    font-size:32px;
+}
+
+.btn{
+    width:100%;
+    margin-bottom:15px;
+}
+
+.about h2{
+    font-size:30px;
+}
+
+.section-title h2{
+    font-size:28px;
+}
+
+}
