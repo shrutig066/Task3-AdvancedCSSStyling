@@ -67,26 +67,5 @@ TechNova-Responsive-Website/
 - Contact Form Validation
 - Clean and Organized Code
 
-## 📷 Screenshots
-
-You can add screenshots of your project here after uploading them.
-
-## 👩‍💻 Author
-
-**Shruti Gaikwad**
-
-- Web Development Intern
-- Atharva College of Engineering
-- Passionate about Full Stack Web Development
-
-## 📄 Internship
-
-**Organization:** Cognifyz Technologies
-
-**Domain:** Web Development
-
-**Task:** Level 2 – Task 3 (Advanced CSS Styling and Responsive Design)
-
----
 
 ⭐ If you found this project useful, consider giving it a star on GitHub!
